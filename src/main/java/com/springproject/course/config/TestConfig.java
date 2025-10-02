@@ -1,4 +1,4 @@
-package com.springproject.course.Config;
+package com.springproject.course.config;
 
 import com.springproject.course.entities.User;
 import com.springproject.course.repositories.UserRepository;
