@@ -1,9 +1,7 @@
 package com.springproject.course.resources;
 
 import com.springproject.course.entities.Order;
-import com.springproject.course.entities.User;
 import com.springproject.course.services.OrderService;
-import com.springproject.course.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/orders")
 public class OrderResource {
 
     @Autowired
